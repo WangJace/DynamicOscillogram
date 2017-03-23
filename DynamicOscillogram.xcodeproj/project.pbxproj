@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0309F0921E83B99F00739DEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0309F0911E83B99F00739DEF /* AppDelegate.swift */; };
+		0309F0941E83B99F00739DEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0309F0931E83B99F00739DEF /* ViewController.swift */; };
+		0309F0971E83B99F00739DEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0309F0951E83B99F00739DEF /* Main.storyboard */; };
+		0309F0991E83B99F00739DEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0309F0981E83B99F00739DEF /* Assets.xcassets */; };
+		0309F09C1E83B99F00739DEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0309F09A1E83B99F00739DEF /* LaunchScreen.storyboard */; };
+		0309F0A71E83B99F00739DEF /* DynamicOscillogramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0309F0A61E83B99F00739DEF /* DynamicOscillogramTests.swift */; };
+		0309F0B21E83B99F00739DEF /* DynamicOscillogramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0309F0B11E83B99F00739DEF /* DynamicOscillogramUITests.swift */; };
+		4FA1498308EDD8E7227ABEB2 /* Pods_DynamicOscillogramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E179EFA69BCBF7AF7E3452BF /* Pods_DynamicOscillogramUITests.framework */; };
+		666C606C63A886F11C035E6B /* Pods_DynamicOscillogramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD65950460BAE9127085D100 /* Pods_DynamicOscillogramTests.framework */; };
+		C68D5704C0465F5D9C631B46 /* Pods_DynamicOscillogram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0CED32ADC4AA08A13E4C8D /* Pods_DynamicOscillogram.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0309F0A31E83B99F00739DEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0309F0861E83B99F00739DEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0309F08D1E83B99F00739DEF;
+			remoteInfo = DynamicOscillogram;
+		};
+		0309F0AE1E83B99F00739DEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0309F0861E83B99F00739DEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0309F08D1E83B99F00739DEF;
+			remoteInfo = DynamicOscillogram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0309F08E1E83B99F00739DEF /* DynamicOscillogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicOscillogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0309F0911E83B99F00739DEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0309F0931E83B99F00739DEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0309F0961E83B99F00739DEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0309F0981E83B99F00739DEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0309F09B1E83B99F00739DEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0309F09D1E83B99F00739DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0309F0A21E83B99F00739DEF /* DynamicOscillogramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicOscillogramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0309F0A61E83B99F00739DEF /* DynamicOscillogramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicOscillogramTests.swift; sourceTree = "<group>"; };
+		0309F0A81E83B99F00739DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0309F0AD1E83B99F00739DEF /* DynamicOscillogramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicOscillogramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0309F0B11E83B99F00739DEF /* DynamicOscillogramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicOscillogramUITests.swift; sourceTree = "<group>"; };
+		0309F0B31E83B99F00739DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1156190DE45BDAF1C67F3FD5 /* Pods-DynamicOscillogram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicOscillogram.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicOscillogram/Pods-DynamicOscillogram.release.xcconfig"; sourceTree = "<group>"; };
+		724C5ABF56461E2DB98FCC81 /* Pods-DynamicOscillogram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicOscillogram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicOscillogram/Pods-DynamicOscillogram.debug.xcconfig"; sourceTree = "<group>"; };
+		799FBD1D945C3E13D92B971A /* Pods-DynamicOscillogramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicOscillogramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicOscillogramUITests/Pods-DynamicOscillogramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BA6F8684DA6A0258AC03F16 /* Pods-DynamicOscillogramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicOscillogramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicOscillogramUITests/Pods-DynamicOscillogramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A6005D8740D65F1EBA50DBA9 /* Pods-DynamicOscillogramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicOscillogramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicOscillogramTests/Pods-DynamicOscillogramTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE0CED32ADC4AA08A13E4C8D /* Pods_DynamicOscillogram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicOscillogram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FEF123A760D12551E7966F /* Pods-DynamicOscillogramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicOscillogramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicOscillogramTests/Pods-DynamicOscillogramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD65950460BAE9127085D100 /* Pods_DynamicOscillogramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicOscillogramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E179EFA69BCBF7AF7E3452BF /* Pods_DynamicOscillogramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicOscillogramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0309F08B1E83B99F00739DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68D5704C0465F5D9C631B46 /* Pods_DynamicOscillogram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0309F09F1E83B99F00739DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666C606C63A886F11C035E6B /* Pods_DynamicOscillogramTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0309F0AA1E83B99F00739DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA1498308EDD8E7227ABEB2 /* Pods_DynamicOscillogramUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0309F0851E83B99F00739DEF = {
+			isa = PBXGroup;
+			children = (
+				0309F0901E83B99F00739DEF /* DynamicOscillogram */,
+				0309F0A51E83B99F00739DEF /* DynamicOscillogramTests */,
+				0309F0B01E83B99F00739DEF /* DynamicOscillogramUITests */,
+				0309F08F1E83B99F00739DEF /* Products */,
+				69261BAF7C96BFD0B7174D56 /* Pods */,
+				3A44BDA909B50B361CB50B1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0309F08F1E83B99F00739DEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0309F08E1E83B99F00739DEF /* DynamicOscillogram.app */,
+				0309F0A21E83B99F00739DEF /* DynamicOscillogramTests.xctest */,
+				0309F0AD1E83B99F00739DEF /* DynamicOscillogramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0309F0901E83B99F00739DEF /* DynamicOscillogram */ = {
+			isa = PBXGroup;
+			children = (
+				0309F0911E83B99F00739DEF /* AppDelegate.swift */,
+				0309F0931E83B99F00739DEF /* ViewController.swift */,
+				0309F0951E83B99F00739DEF /* Main.storyboard */,
+				0309F0981E83B99F00739DEF /* Assets.xcassets */,
+				0309F09A1E83B99F00739DEF /* LaunchScreen.storyboard */,
+				0309F09D1E83B99F00739DEF /* Info.plist */,
+			);
+			path = DynamicOscillogram;
+			sourceTree = "<group>";
+		};
+		0309F0A51E83B99F00739DEF /* DynamicOscillogramTests */ = {
+			isa = PBXGroup;
+			children = (
+				0309F0A61E83B99F00739DEF /* DynamicOscillogramTests.swift */,
+				0309F0A81E83B99F00739DEF /* Info.plist */,
+			);
+			path = DynamicOscillogramTests;
+			sourceTree = "<group>";
+		};
+		0309F0B01E83B99F00739DEF /* DynamicOscillogramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0309F0B11E83B99F00739DEF /* DynamicOscillogramUITests.swift */,
+				0309F0B31E83B99F00739DEF /* Info.plist */,
+			);
+			path = DynamicOscillogramUITests;
+			sourceTree = "<group>";
+		};
+		3A44BDA909B50B361CB50B1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE0CED32ADC4AA08A13E4C8D /* Pods_DynamicOscillogram.framework */,
+				CD65950460BAE9127085D100 /* Pods_DynamicOscillogramTests.framework */,
+				E179EFA69BCBF7AF7E3452BF /* Pods_DynamicOscillogramUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69261BAF7C96BFD0B7174D56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				724C5ABF56461E2DB98FCC81 /* Pods-DynamicOscillogram.debug.xcconfig */,
+				1156190DE45BDAF1C67F3FD5 /* Pods-DynamicOscillogram.release.xcconfig */,
+				C2FEF123A760D12551E7966F /* Pods-DynamicOscillogramTests.debug.xcconfig */,
+				A6005D8740D65F1EBA50DBA9 /* Pods-DynamicOscillogramTests.release.xcconfig */,
+				799FBD1D945C3E13D92B971A /* Pods-DynamicOscillogramUITests.debug.xcconfig */,
+				8BA6F8684DA6A0258AC03F16 /* Pods-DynamicOscillogramUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0309F08D1E83B99F00739DEF /* DynamicOscillogram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0309F0B61E83B99F00739DEF /* Build configuration list for PBXNativeTarget "DynamicOscillogram" */;
+			buildPhases = (
+				43EC81E2F4D882DAA1947C97 /* [CP] Check Pods Manifest.lock */,
+				0309F08A1E83B99F00739DEF /* Sources */,
+				0309F08B1E83B99F00739DEF /* Frameworks */,
+				0309F08C1E83B99F00739DEF /* Resources */,
+				E480477B9F9E5AE3ED24D795 /* [CP] Embed Pods Frameworks */,
+				61426091789516A0650418A7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicOscillogram;
+			productName = DynamicOscillogram;
+			productReference = 0309F08E1E83B99F00739DEF /* DynamicOscillogram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0309F0A11E83B99F00739DEF /* DynamicOscillogramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0309F0B91E83B99F00739DEF /* Build configuration list for PBXNativeTarget "DynamicOscillogramTests" */;
+			buildPhases = (
+				78010722C8243FE9007FF709 /* [CP] Check Pods Manifest.lock */,
+				0309F09E1E83B99F00739DEF /* Sources */,
+				0309F09F1E83B99F00739DEF /* Frameworks */,
+				0309F0A01E83B99F00739DEF /* Resources */,
+				A451593B11EA3BF44C9F8283 /* [CP] Embed Pods Frameworks */,
+				683D75A92F546E43DE9FCF6E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0309F0A41E83B99F00739DEF /* PBXTargetDependency */,
+			);
+			name = DynamicOscillogramTests;
+			productName = DynamicOscillogramTests;
+			productReference = 0309F0A21E83B99F00739DEF /* DynamicOscillogramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0309F0AC1E83B99F00739DEF /* DynamicOscillogramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0309F0BC1E83B99F00739DEF /* Build configuration list for PBXNativeTarget "DynamicOscillogramUITests" */;
+			buildPhases = (
+				46DD8B566762588A0550F825 /* [CP] Check Pods Manifest.lock */,
+				0309F0A91E83B99F00739DEF /* Sources */,
+				0309F0AA1E83B99F00739DEF /* Frameworks */,
+				0309F0AB1E83B99F00739DEF /* Resources */,
+				3213490E3085CB5F0177FD88 /* [CP] Embed Pods Frameworks */,
+				3322A372BF92B4727D757E56 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0309F0AF1E83B99F00739DEF /* PBXTargetDependency */,
+			);
+			name = DynamicOscillogramUITests;
+			productName = DynamicOscillogramUITests;
+			productReference = 0309F0AD1E83B99F00739DEF /* DynamicOscillogramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0309F0861E83B99F00739DEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = WangJace;
+				TargetAttributes = {
+					0309F08D1E83B99F00739DEF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					0309F0A11E83B99F00739DEF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0309F08D1E83B99F00739DEF;
+					};
+					0309F0AC1E83B99F00739DEF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0309F08D1E83B99F00739DEF;
+					};
+				};
+			};
+			buildConfigurationList = 0309F0891E83B99F00739DEF /* Build configuration list for PBXProject "DynamicOscillogram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0309F0851E83B99F00739DEF;
+			productRefGroup = 0309F08F1E83B99F00739DEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0309F08D1E83B99F00739DEF /* DynamicOscillogram */,
+				0309F0A11E83B99F00739DEF /* DynamicOscillogramTests */,
+				0309F0AC1E83B99F00739DEF /* DynamicOscillogramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0309F08C1E83B99F00739DEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0309F09C1E83B99F00739DEF /* LaunchScreen.storyboard in Resources */,
+				0309F0991E83B99F00739DEF /* Assets.xcassets in Resources */,
+				0309F0971E83B99F00739DEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0309F0A01E83B99F00739DEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0309F0AB1E83B99F00739DEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3213490E3085CB5F0177FD88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicOscillogramUITests/Pods-DynamicOscillogramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3322A372BF92B4727D757E56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicOscillogramUITests/Pods-DynamicOscillogramUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43EC81E2F4D882DAA1947C97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46DD8B566762588A0550F825 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		61426091789516A0650418A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicOscillogram/Pods-DynamicOscillogram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		683D75A92F546E43DE9FCF6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicOscillogramTests/Pods-DynamicOscillogramTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78010722C8243FE9007FF709 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A451593B11EA3BF44C9F8283 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicOscillogramTests/Pods-DynamicOscillogramTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E480477B9F9E5AE3ED24D795 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicOscillogram/Pods-DynamicOscillogram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0309F08A1E83B99F00739DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0309F0941E83B99F00739DEF /* ViewController.swift in Sources */,
+				0309F0921E83B99F00739DEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0309F09E1E83B99F00739DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0309F0A71E83B99F00739DEF /* DynamicOscillogramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0309F0A91E83B99F00739DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0309F0B21E83B99F00739DEF /* DynamicOscillogramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0309F0A41E83B99F00739DEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0309F08D1E83B99F00739DEF /* DynamicOscillogram */;
+			targetProxy = 0309F0A31E83B99F00739DEF /* PBXContainerItemProxy */;
+		};
+		0309F0AF1E83B99F00739DEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0309F08D1E83B99F00739DEF /* DynamicOscillogram */;
+			targetProxy = 0309F0AE1E83B99F00739DEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0309F0951E83B99F00739DEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0309F0961E83B99F00739DEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0309F09A1E83B99F00739DEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0309F09B1E83B99F00739DEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0309F0B41E83B99F00739DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0309F0B51E83B99F00739DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0309F0B71E83B99F00739DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724C5ABF56461E2DB98FCC81 /* Pods-DynamicOscillogram.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynamicOscillogram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WangJace.DynamicOscillogram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0309F0B81E83B99F00739DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1156190DE45BDAF1C67F3FD5 /* Pods-DynamicOscillogram.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DynamicOscillogram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WangJace.DynamicOscillogram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0309F0BA1E83B99F00739DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2FEF123A760D12551E7966F /* Pods-DynamicOscillogramTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DynamicOscillogramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WangJace.DynamicOscillogramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicOscillogram.app/DynamicOscillogram";
+			};
+			name = Debug;
+		};
+		0309F0BB1E83B99F00739DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6005D8740D65F1EBA50DBA9 /* Pods-DynamicOscillogramTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DynamicOscillogramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WangJace.DynamicOscillogramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicOscillogram.app/DynamicOscillogram";
+			};
+			name = Release;
+		};
+		0309F0BD1E83B99F00739DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 799FBD1D945C3E13D92B971A /* Pods-DynamicOscillogramUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				INFOPLIST_FILE = DynamicOscillogramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WangJace.DynamicOscillogramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DynamicOscillogram;
+			};
+			name = Debug;
+		};
+		0309F0BE1E83B99F00739DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA6F8684DA6A0258AC03F16 /* Pods-DynamicOscillogramUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				INFOPLIST_FILE = DynamicOscillogramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WangJace.DynamicOscillogramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DynamicOscillogram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0309F0891E83B99F00739DEF /* Build configuration list for PBXProject "DynamicOscillogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0309F0B41E83B99F00739DEF /* Debug */,
+				0309F0B51E83B99F00739DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0309F0B61E83B99F00739DEF /* Build configuration list for PBXNativeTarget "DynamicOscillogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0309F0B71E83B99F00739DEF /* Debug */,
+				0309F0B81E83B99F00739DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0309F0B91E83B99F00739DEF /* Build configuration list for PBXNativeTarget "DynamicOscillogramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0309F0BA1E83B99F00739DEF /* Debug */,
+				0309F0BB1E83B99F00739DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0309F0BC1E83B99F00739DEF /* Build configuration list for PBXNativeTarget "DynamicOscillogramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0309F0BD1E83B99F00739DEF /* Debug */,
+				0309F0BE1E83B99F00739DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0309F0861E83B99F00739DEF /* Project object */;
+}
