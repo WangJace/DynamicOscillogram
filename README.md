@@ -1,0 +1,2 @@
+# DynamicOscillogramTest
+使用CorePlot绘制动态波形图，此demo可用户实时心率波形图的卡开发
